@@ -1,0 +1,22 @@
+how to run
+
+
+Whenever you come back to this project, activate the environment first:
+cd "C:\Users\raoar\Desktop\DeepFake-Hunter-main"
+
+Then:
+
+.\venv\Scripts\Activate.ps1
+
+If PowerShell again says scripts are disabled:
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+then:
+
+.\venv\Scripts\Activate.ps1
+
+
+And start the app:
+
+streamlit run app_enhanced.py
